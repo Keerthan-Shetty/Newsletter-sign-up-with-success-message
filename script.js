@@ -10,7 +10,7 @@ form.addEventListener('submit',(e)=>{
     e.preventDefault();
     let email = document.getElementById('email').value;
     emailValue.textContent = email;
-    if(!email || !validateForm(email)){
+    if(!email||!validateForm(email)){
         error.style.display= 'block';
     }else{
         main.style.display ='none'
@@ -20,7 +20,7 @@ form.addEventListener('submit',(e)=>{
 
 function validateForm(email){
     let emailState = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailState.test(email);
+    return emailState.test(email);  
 }
 
 returnhome.addEventListener('click',()=>{

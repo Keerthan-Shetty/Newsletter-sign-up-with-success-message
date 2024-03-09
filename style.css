@@ -38,7 +38,7 @@
     height: 550px;
     width: 100%; 
 } 
-p{
+.content p{
     font-size: 15px;
     font-weight: 600;
     color: var(--CharcoalGrey);
@@ -61,6 +61,7 @@ li{
     padding-left:10px;
     font-size: 15px;
     font-weight: 600;
+    color: var(--CharcoalGrey);
 }
 form p{
     display: none;
