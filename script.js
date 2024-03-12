@@ -28,4 +28,5 @@ returnhome.addEventListener('click',()=>{
     main.style.display ='block'
     success.style.display = 'none'
     form.reset();
+    error.style.display='none';
 })
