@@ -100,6 +100,7 @@ form label, form p{
     font-size: 15px;
 }
 .success-section span{
+    font-weight: 600px;
     color: var(--CharcoalGrey);
 }
 .success-section h1{
